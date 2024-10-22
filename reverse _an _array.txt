@@ -1,0 +1,7 @@
+arr=list(map(int,input().split()))
+new_arr=[]
+length=len(arr)
+for i in range(length-1,-1,-1):
+    ele=arr[i]
+    new_arr.append(ele)
+print(new_arr)
